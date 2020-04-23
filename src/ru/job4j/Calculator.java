@@ -15,7 +15,7 @@ public class Calculator {
 
         System.out.println(onePlusTwo + "\n");
 
-        System.out.println(sixD ivTwo);
+        System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
     }
