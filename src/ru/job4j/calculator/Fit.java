@@ -10,7 +10,7 @@ public class Fit {
         return rsl;
     }
     public static void main(String[] args){
-        double man = Fit.ma nWeight(180);
+        double man = Fit.manWeight(180);
         System.out.println("Man 100 is " + man);
 
         double woman = Fit.womanWeight(160);
