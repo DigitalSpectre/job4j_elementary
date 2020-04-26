@@ -22,10 +22,3 @@ public class FitTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 }
-
-/*
-        int in = 140;
-        int expected = 2;
-        int out = Converter.rubleToEuro(in);
-        Assert.assertEquals(expected, out);
- */
