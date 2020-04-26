@@ -2,7 +2,9 @@ package ru.job4j.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c){
-        double rsl = Math.sqrt( (a + b + c)/2 * ((a + b + c)/2 - a) * ((a + b + c)/2 - b) * ((a + b + c)/2 - c));
+        double semiPerimeter = (a + b + c)/2;
+        double rsl = Math.sqrt( semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c));
+
         return rsl;
     }
     public static void main(String[] args){
