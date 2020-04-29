@@ -1,6 +1,21 @@
 package ru.job4j.array;
 
 public class MatrixCheck {
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int i = 0; i < 5; i++) {
+            if (board[i][i] == 'X') {
+                if (monoVertical(board, i)) {
+                    result = true;
+                    break;
+                } else if (monoHorizontal(board, i)) {
+                    result = true;
+                    break;
+                }
+            }
+        }
+        return result;
+    }
     public static char[] extractDiagonal(char[][] board) {
         char[] rsl = new char[board.length];
         for (int i = 0; i < board.length; i++) {
