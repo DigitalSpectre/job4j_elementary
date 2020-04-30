@@ -13,7 +13,7 @@ public class Defragment {
                     }
                 }
             }
-            System.out.print(array[index] + " ");
+            System.out.print(arra y[index] + " ");
         }
         return array;
     }
