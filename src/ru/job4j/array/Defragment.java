@@ -5,8 +5,8 @@ public class Defragment {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
                 int point = index; // указатель, на не null ячейку.
-                while(++point < array.length) {
-                    if(array[point] != null) {
+                while (++point < array.length) {
+                    if (array[point] != null) {
                         array[index] = array[point];
                         array[point] = null;
                         break;
