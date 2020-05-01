@@ -6,14 +6,14 @@ public class SeqNumber {
         calc(5);
     }
 
-    public static void calc(int n){
+    public static void calc(int n) {
         int hold = 0;
-        for(int index = 1; index <= n; index++) {
+        for (int index = 1; index <= n; index++) {
             hold += index;
-            if(hold == n) {
+            if (hold == n) {
                 System.out.println("Success");
                 break;
-            } else if(hold > n) {
+            } else if (hold > n) {
                 System.out.println("Not posiible");
                 break;
             }

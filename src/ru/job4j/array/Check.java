@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
-        for(int index = 0; index < data.length; index++) {
+        for (int index = 0; index < data.length; index++) {
             if (data[0] != data[index]) {
                 result = false;
                 break;
@@ -13,7 +13,7 @@ public class Check {
     }
 
     public static void main(String[] args) {
-        boolean[] array = new boolean[] {true, true, true, true};
+        boolean[] array = new boolean[]{true, true, true, true};
         boolean rsl = mono(array);
         System.out.println(rsl);
     }
