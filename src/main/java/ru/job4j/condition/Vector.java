@@ -7,7 +7,7 @@ public class Vector {
          * Сложение векторов: (x1, y1) + (x2, y2) = (x1 + x2, y1 + y2)
          */
         int xResult = x1 + x2;
-        int yResult = y1 +  y2;
+        int yResult = y1 + y2;
         return String.format("(%d, %d)", xResult, yResult);
     }
 
