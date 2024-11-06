@@ -14,6 +14,7 @@ class ConverterTest {
         double value = 0.0001;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
+
     @Test
     void whenConvert225RblThen3Dollar() {
         double input = 225;
@@ -22,6 +23,7 @@ class ConverterTest {
         double value = 0.0001;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
+
     @Test
     void whenConvert300RblThen3dot3333Euro() {
         double input = 250;
