@@ -36,6 +36,7 @@ class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenPointsMinus4dot4And3dot3And3dot3AndMinus1dot1Then7dot93() {
         double x1 = -4.4, y1 = 3.3, x2 = 2.2, y2 = -1.1;
