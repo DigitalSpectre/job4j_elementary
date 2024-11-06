@@ -8,7 +8,7 @@ class TemperatureFitTest {
     @Test
     void whenRoomTemperature10ThenFruits8() {
         int input = 10;
-        double expected = 8.0;
+        double expected  = 8.0;
         double output = TemperatureFit.idealTemperatureForFruits(input);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }

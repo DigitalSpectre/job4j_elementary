@@ -6,7 +6,7 @@ public class TemperatureFit {
         /**
          * Ideal temperature for storing fruits in Celsius
          */
-        return temperature - 2.0;
+        return temperature -  2.0;
     }
 
     public static double idealTemperatureForMeat(int temperature) {
