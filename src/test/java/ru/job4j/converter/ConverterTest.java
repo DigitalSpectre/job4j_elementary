@@ -8,9 +8,9 @@ class ConverterTest {
 
     @Test
     void whenConvert180RblThen2Euro() {
-        double input = 180;
+        double input1 = 180;
         double expected = 2;
-        double output = Converter.rubleToEuro(input);
+        double output = Converter.rubleToEuro(input1);
         double value = 0.0001;
         assertThat(output).isEqualTo(expected, withPrecision(value));
     }
