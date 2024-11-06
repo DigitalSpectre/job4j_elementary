@@ -5,7 +5,7 @@ public class Converter {
         /**
          * Assuming the conversion rate is 1 Euro = 90 Rubles
          */
-        return value  / 90;
+        return value / 90;
     }
 
     public static double rubleToDollar(double value) {
