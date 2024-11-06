@@ -9,7 +9,7 @@ class FactorialTest {
     @Test
     void when0Then1() {
         int n = 0;
-        int expected = 1;
+        int expected =  1;
         int output = Factorial.calculate(n);
         assertThat(output).isEqualTo(expected);
     }
