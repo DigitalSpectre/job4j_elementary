@@ -8,7 +8,7 @@ class PointTest {
     @Test
     void whenPoints00And20Then2() {
         int x1 = 0, y1 = 0, x2 = 2, y2 = 0;
-        double expected = 2.0;
+        double expected =  2.0;
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
