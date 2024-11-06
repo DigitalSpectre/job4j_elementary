@@ -6,7 +6,7 @@ public class Fit {
         /**
          *  Formula for man's weight: (height in cm - 100) * 1.15
          */
-        return (height - 100) * 1.15;
+        return (height - 100)  * 1.15;
     }
 
     public static double womanWeight(short height) {
